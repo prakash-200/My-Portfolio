@@ -8,11 +8,12 @@
 /* Home page */
 
 #home{
-    background-image: url(../images/lap\ wallpaper.jpg);
-    width: 100%;
-    height: 100vh;
+    background-image: url("../images/lap.avif");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 
 .navbar{
@@ -38,7 +39,6 @@
     width: 80%;
     position: absolute;
     top: 30%;
-    /* margin-left: 40px; */
 }
 
 .home-tag{
@@ -67,6 +67,16 @@
         font-size: xx-large;
         margin-top: 40px;
     }
+}
 
+@media screen and (min-width:601px) {
+    .home-content{
+        margin: 50px;
+    }
+
+    #text1,
+    #text2{
+        font-size: 80px;
+    }
     
 }
