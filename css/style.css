@@ -19,6 +19,8 @@
 .navbar{
     background-color: #000000;
     z-index: 2;
+    /* position: fixed;
+    width: 100%; */
 }
 
 .nav-link:hover{
@@ -53,13 +55,10 @@
     position: absolute;
     left: 1%;
 }
-
-.home-know{
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
+ 
+.row-home{
+    height: 100vh;
 }
-
 
 @media screen and (width<=600px){
     #text1,
@@ -80,3 +79,21 @@
     }
     
 }
+
+/* Home page end */
+
+/* About page start */
+
+#about{
+    width: 100%;
+    background-color: gray;
+}
+
+.about-content{
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* About page end */
