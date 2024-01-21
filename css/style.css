@@ -3,6 +3,7 @@
     padding: 0%;
     scroll-behavior: smooth;
     font-family: 'Playfair Display', serif;
+    user-select: none;
 }
 
 /* Home page */
@@ -15,13 +16,21 @@
     width: 100%;
     height: 100vh;
 }
+/* position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+	z-index: 1; */
+ .navbar{
+	background-color: #000;
+} 
 
-nav{
-    background-color: #000000;
-    z-index: 2;
+.navbar-content{
     position: fixed;
-    top: 0px;
+    top: 0%;
+    width: 100vw;
     z-index: 2;
+    background-color: #0000;
 }
 
 .nav-link:hover{
@@ -121,15 +130,17 @@ nav{
     background-position: center;
     background-size: cover;
     margin: 20px;
-    height: 300px
+    height: 300px;
+    border-radius: 20px;
 } 
 
 .scl2{
     background-image: url(../images/GOVT2.jpg);
     background-position: center;
     background-size: cover;
-    /* margin: 20px; */
-    height: 300px
+    margin: 20px;
+    height: 300px;
+    border-radius: 20px;
 }
 
 .mec{
@@ -137,15 +148,17 @@ nav{
     background-position: center;
     background-size: cover;
     margin: 20px;
-    height: 300px
+    height: 300px;
+    border-radius: 20px;
 }
 
 .int{
     background-image: url(../images/itkrish_technologies_logo.jpg);
     background-position: center;
     background-size: cover;
-    /* margin: 20px; */
+    margin: 20px;
     height: 300px;
+    border-radius: 20px;
 }
 
 .resume-topic{
@@ -161,12 +174,22 @@ nav{
 }
 
 @media screen and (max-width:500px) {
-    /* .scl,
+    .scl,
     .scl2,
     .mec,
     .int{
-        width: 100vw;
-    } */
+        margin: 20px;
+    }
+
+    .scl,
+    .scl2,
+    .mec,
+    .int{
+        .resume-topic{
+            font-size: small;
+            width: 100vw;
+        }
+    }
 }
 
 /* Resume page end */
