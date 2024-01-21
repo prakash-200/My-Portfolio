@@ -16,11 +16,12 @@
     height: 100vh;
 }
 
-.navbar{
+nav{
     background-color: #000000;
     z-index: 2;
-    /* position: fixed;
-    width: 100%; */
+    position: fixed;
+    top: 0px;
+    z-index: 2;
 }
 
 .nav-link:hover{
@@ -86,7 +87,6 @@
 
 #about{
     width: 100%;
-    background-color: gray;
 }
 
 .about-content{
@@ -96,4 +96,77 @@
     padding-top: 10px;
 }
 
+.cv-btn a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.cv-btn a:hover{
+    font-weight: bolder;
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    .about-content{
+        font-size: smaller;
+    }
+}
+
 /* About page end */
+
+/* Resume page start */
+
+.scl{
+    background-image: url(../images/GBHSS\ T.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    height: 300px
+} 
+
+.scl2{
+    background-image: url(../images/GOVT2.jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin: 20px; */
+    height: 300px
+}
+
+.mec{
+    background-image: url(../images/MEC.png);
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    height: 300px
+}
+
+.int{
+    background-image: url(../images/itkrish_technologies_logo.jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin: 20px; */
+    height: 300px;
+}
+
+.resume-topic{
+    color: #FFD43B;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.scl,
+.scl2,
+.mec,
+.int:hover{
+}
+
+@media screen and (max-width:500px) {
+    /* .scl,
+    .scl2,
+    .mec,
+    .int{
+        width: 100vw;
+    } */
+}
+
+/* Resume page end */
