@@ -117,7 +117,7 @@
 
 @media screen and (max-width:500px) {
     .about-content{
-        font-size: smaller;
+        font-size: small;
     }
 }
 
@@ -193,3 +193,13 @@
 }
 
 /* Resume page end */
+
+/* Skills page start */
+
+.skills-col .col{
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Skills page end */
