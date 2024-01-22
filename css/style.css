@@ -194,12 +194,13 @@
 
 /* Resume page end */
 
-/* Skills page start */
+/* Services page start */
 
 .skills-col .col{
     height: 300px;
     /* width: 200px; */
     margin: 20px;
+    background-color: #171717;
     border-radius: 10px;
     position: relative;
     display: flex;
@@ -221,4 +222,33 @@
     color: #0000;
 }
 
-/* Skills page end */
+/* Services page end */
+
+/* Project page start */
+
+.pj1,
+.pj2,
+.pj3,
+.pj4{
+    background-color: #171717;
+}
+
+/* Project page end */
+
+/* Contact page start */
+
+#contact p,
+li,
+span{
+    color: #bec1bd;
+}
+
+.contact-img img{
+    height: 300px;
+    opacity: .7;
+}
+
+.contact-list ul li{
+    list-style: none;
+}
+/* Contact page end */
