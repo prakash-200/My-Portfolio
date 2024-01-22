@@ -70,6 +70,13 @@
     height: 100vh;
 }
 
+@media screen and (max-width:500px){
+    .home{
+        background-image: url("../images/mobileBg.jpg");
+    }
+
+}
+
 @media screen and (width<=600px){
     #text1,
     #text2{
@@ -126,7 +133,7 @@
 /* Resume page start */
 
 .scl{
-    background-image: url(../images/GBHSS\ T.jpg);
+    background-image: url(../images/GBHSS.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -135,7 +142,7 @@
 } 
 
 .scl2{
-    background-image: url(../images/GOVT2.jpg);
+    background-image: url(../images/GOVT3.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -144,7 +151,7 @@
 }
 
 .mec{
-    background-image: url(../images/MEC.png);
+    background-image: url(../images/mec.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -153,7 +160,7 @@
 }
 
 .int{
-    background-image: url(../images/itkrish_technologies_logo.jpg);
+    background-image: url(../images/ITKrish.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -165,6 +172,10 @@
     color: #FFD43B;
     font-weight: bolder;
     font-size: x-large;
+}
+
+.content-p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .scl,
@@ -209,18 +220,23 @@
     justify-content: center;
 }
 
-.skills-col .col:hover{
-    color: #FFD43B;
-}
-
 .skills-col .col i{
     font-size: 50px;
 }
 
-.skills-col .col p:hover{
-    background-color: #FFD43B;
-    color: #0000;
+/* .skills-col .col:hover,
+.skills-col .cd:hover{
+    background-color: #FFC107;
 }
+
+.skills-col .cd p:hover{
+    color: #0000;
+} */
+
+/* .skills-col .hov:hover,
+.skills-col .hov2:hover{
+    color: aqua;
+} */
 
 /* Services page end */
 
