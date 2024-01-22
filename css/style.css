@@ -198,8 +198,27 @@
 
 .skills-col .col{
     height: 300px;
+    /* width: 200px; */
     margin: 20px;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-col .col:hover{
+    color: #FFD43B;
+}
+
+.skills-col .col i{
+    font-size: 50px;
+}
+
+.skills-col .col p:hover{
+    background-color: #FFD43B;
+    color: #0000;
 }
 
 /* Skills page end */
