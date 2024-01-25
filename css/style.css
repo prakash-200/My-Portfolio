@@ -84,8 +84,8 @@ nav{
     text-align:center;
     font-family:'Lato', sans-serif;
     font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
   
   @-webkit-keyframes flicker
   {
@@ -164,7 +164,7 @@ nav{
 /* Resume page start */
 
 .scl{
-    background-image: url(../images/GBHSS.jpg);
+    background-image: url(../images/gbhss1.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -173,7 +173,7 @@ nav{
 } 
 
 .scl2{
-    background-image: url(../images/GOVT3.jpg);
+    background-image: url(../images/gbhss2.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -182,7 +182,7 @@ nav{
 }
 
 .mec{
-    background-image: url(../images/mec.jpg);
+    background-image: url(../images/college.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -191,7 +191,7 @@ nav{
 }
 
 .int{
-    background-image: url(../images/ITKrish.jpg);
+    background-image: url(../images/krish.jpg);
     background-position: center;
     background-size: cover;
     margin: 20px;
@@ -240,7 +240,6 @@ nav{
 
 .skills-col .col{
     height: 300px;
-    /* width: 200px; */
     margin: 20px;
     background-color: #171717;
     border-radius: 10px;
@@ -255,20 +254,6 @@ nav{
     font-size: 50px;
 }
 
-/* .skills-col .col:hover,
-.skills-col .cd:hover{
-    background-color: #FFC107;
-}
-
-.skills-col .cd p:hover{
-    color: #0000;
-} */
-
-/* .skills-col .hov:hover,
-.skills-col .hov2:hover{
-    color: aqua;
-} */
-
 /* Services page end */
 
 /* Project page start */
@@ -276,7 +261,11 @@ nav{
 .pj1,
 .pj2,
 .pj3,
-.pj4{
+.pj4,
+.pj5,
+.pj6,
+.pj7,
+.pj8{
     background-color: #171717;
 }
 
