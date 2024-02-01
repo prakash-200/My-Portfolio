@@ -26,16 +26,12 @@ nav{
     background-color: #0000;
 }
     
-.navbar{
-	background-color: #000;
-} 
-
 .navbar-content{
     position: fixed;
     top: 0%;
     width: 100vw;
-    z-index: 2;
-    background-color: #0000;
+    z-index: 10;
+    background-color: black;
 }
 
 .nav-link{
@@ -80,7 +76,7 @@ nav{
 }
 
 .logo {
-    -webkit-animation: flicker 2s infinite;
+    -webkit-animation: flicker 5s infinite;
     text-align:center;
     font-family:'Lato', sans-serif;
     font-weight: bolder;

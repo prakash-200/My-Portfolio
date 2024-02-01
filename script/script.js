@@ -1,3 +1,33 @@
+// js for search bar
+document.addEventListener('DOMContentLoaded', function() {
+    // Define a mapping of search terms to respective page URLs
+    const pageMapping = {
+      'home': '/index.html',
+      'about': '#about',
+      'services': '/services.html',
+      'contact': '/contact.html'
+      // Add more entries as needed
+    };
+  
+    // Get the search bar element
+    const searchBar = document.getElementById('searchBar');
+  
+    // Add input event listener to the search bar
+    searchBar.addEventListener('input', function() {
+      // Get the value entered in the search bar and convert to lowercase
+      const inputValue = searchBar.value.toLowerCase();
+  
+      // Check if the entered value matches a page in the mapping
+      if (pageMapping.hasOwnProperty(inputValue)) {
+        // Redirect to the respective page
+        window.location.href = pageMapping[inputValue];
+      }
+    });
+  });
+
+//   search bar end
+
+
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
