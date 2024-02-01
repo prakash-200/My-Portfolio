@@ -34,12 +34,20 @@ nav{
     background-color: black;
 }
 
+.nav-item{
+    margin: 10px;
+}
+
 .nav-link{
     background-color: #0000;
 }
 
 .nav-link span:hover{
     color: #ffff;
+}
+
+.collapse{
+    padding-left: 100px;
 }
 
 #text1,
@@ -282,5 +290,9 @@ span{
 
 .contact-list ul li{
     list-style: none;
+}
+
+.Portfolio-link:hover{
+    color: #FFD43B;
 }
 /* Contact page end */
